@@ -18,7 +18,6 @@ int main()
     for (int i = 0; i < years; i++) {
         amount += amount*percent/100;
         result = amount;
-        std::cout << result << std::endl;
     }
     std::cout << std::endl;
     std::cout << "Через " << years << " лет вы получите "
