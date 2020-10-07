@@ -20,7 +20,7 @@ int main()
         res_pence = pence1 + pence2;
 
         if(res_pence > 11) {
-            res_shilling += (res_pence/12);;
+            res_shilling += (res_pence/12);
             res_pence = res_pence%12;
         }
 
