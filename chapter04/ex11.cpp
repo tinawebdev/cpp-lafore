@@ -31,9 +31,6 @@ int main()
 
     t1.total_seconds = total_seconds(t1);
     t2.total_seconds = total_seconds(t2);
-    
-    cout << "t1.total_seconds = " << t1.total_seconds << endl;
-    cout << "t2.total_seconds = " << t2.total_seconds << endl;
 
     total_time = (t1.total_seconds + t2.total_seconds);
     t3.hours = total_time / 3600;
