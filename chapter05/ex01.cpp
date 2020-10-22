@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-float circarea(float);
+float circarea(float radius);
 
 int main()
 {
     float rad;
-    cout <<"Введите радиус окружности: ";
+    cout << "Введите радиус окружности: ";
     cin >> rad;
     cout << "Площадь круга равна " << circarea(rad) << endl;
 }
