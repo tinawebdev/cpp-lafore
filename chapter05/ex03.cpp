@@ -1,3 +1,4 @@
+// Программа присваивает меньшему из аргументов нулевое значение
 #include <iostream>
 using namespace std;
 
@@ -6,7 +7,6 @@ void zeroSmaller(int&, int&);
 int main()
 {
     int a, b;
-
     cout << "Введите число a: ";
     cin >> a;
     cout << "Введите число b: ";
@@ -19,11 +19,7 @@ int main()
 void zeroSmaller(int& a, int& b)
 {
     if (a < b)
-    {
         a = 0;
-    }
     else
-    {
         b = 0;
-    }
 }
