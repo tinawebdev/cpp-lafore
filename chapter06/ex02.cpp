@@ -3,8 +3,7 @@ using namespace std;
 const char ESC = 27;
 const double COST = 0.50;
 
-class tollBooth
-{
+class tollBooth {
   private:
     unsigned int carsCount;
     double totalCash;
@@ -24,8 +23,7 @@ class tollBooth
     }
 };
 
-int main()
-{
+int main() {
   tollBooth tb;
   char ch = '0';
 
