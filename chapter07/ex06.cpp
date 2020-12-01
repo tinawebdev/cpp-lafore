@@ -83,14 +83,14 @@ int main() {
   card hands[4][13];
   int i;
   int n = 0;
-  for (j = 0; j < 13; j++)
-    for (i = 0; i < 4; i++)
+  for (j = 0; j < 13; j++) {
+    for (i = 0; i < 4; i++) {
       hands[i][j] = deck[n++];
-  for (i = 0; i < 4; i++)
-  {
+    }
+  }
+  for (i = 0; i < 4; i++) {
     cout << "\nГруппа карт " << i + 1 << "-го игрока:\n";
-    for (j = 0; j < 13; j++)
-    {
+    for (j = 0; j < 13; j++) {
       hands[i][j].display();
       if (j + 1 < 13)
         cout << ' ';
